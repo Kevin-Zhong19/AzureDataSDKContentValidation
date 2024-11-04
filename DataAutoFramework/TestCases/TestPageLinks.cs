@@ -159,7 +159,6 @@ namespace DataAutoFramework.TestCases
             }
 
             await browser.CloseAsync();
-
             ClassicAssert.Zero(errorList.Count, testLink + " has error link at " + string.Join(",", errorList));
         }
     }
